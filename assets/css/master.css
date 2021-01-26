@@ -2,6 +2,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
 }
 
 nav ul li {
@@ -36,13 +37,29 @@ i {
 .section-1 {
   height: 100vh;
   background-color: #FF0000;
+  position: relative;
 }
 
 .section-2 {
   height: 100vh;
   background-color: #008000;
+  position: relative;
 }
+
 .section-3 {
   height: 100vh;
   background-color: #FFFF00;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-shoes {
+  text-align: center;
+  font-size: 67px;
 }
