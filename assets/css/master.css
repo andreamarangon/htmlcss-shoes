@@ -7,6 +7,7 @@
 
 nav ul li {
   display: inline;
+  padding-left: 25px;
 }
 
 nav ul {
@@ -26,30 +27,34 @@ nav {
   position: fixed;
   right: 0;
   z-index: 1;
-  height: 60px;
-  padding: 20px;
+  height: 90px;
+  margin: 40px 20px;
 }
 
 i {
-  color: black:
+  color: white;
+  font-size: 3em;
 }
 
 .section-1 {
   height: 100vh;
   background-color: #FF0000;
   position: relative;
+  color: #FFFF00;
 }
 
 .section-2 {
   height: 100vh;
   background-color: #008000;
   position: relative;
+  color: #FFFF00;
 }
 
 .section-3 {
   height: 100vh;
   background-color: #FFFF00;
   position: relative;
+  color: #008000;
 }
 
 .container {
@@ -62,4 +67,12 @@ i {
 .text-shoes {
   text-align: center;
   font-size: 67px;
+}
+
+.number {
+  position: absolute;
+  color: black;
+  top: 10px;
+  left: 82px;
+  font-size: 0.5em;
 }
