@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul {
+  list-style: none;
+}
+
+header {
+  position: relative;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  height: 60px;
+  padding: 20px;
+}
+
+i {
+  color: black:
+}
+
+.section-1 {
+  height: 100vh;
+  background-color: #FF0000;
+}
+
+.section-2 {
+  height: 100vh;
+  background-color: #008000;
+}
+.section-3 {
+  height: 100vh;
+  background-color: #FFFF00;
+}
